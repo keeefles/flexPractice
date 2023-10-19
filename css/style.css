@@ -1,0 +1,53 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    flex-direction: row;
+    height: 60vh;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-evenly;
+    
+    
+}
+.box {
+    width: 200px;
+    height: 200px;
+    font-size: 1em;
+    text-align: center;
+    border-radius: 20px;
+    
+    
+}
+#box1 {
+    background-color: rgba(169, 251, 169, 0.93);
+}
+#box2 {
+    background-color: skyblue;
+}
+#box3 {
+    background-color: rgb(255, 208, 208);
+}
+#box4 {
+    background-color: violet;
+}
+#box5 {
+    background-color: darkcyan;
+}
+#box6 {
+    background-color: moccasin;
+}
+img{
+    width: 150px;
+    height: 150px;
+    position: absolute;
+}
